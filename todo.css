@@ -2,8 +2,9 @@
   text-align: center;
 }
 
-.box1 {
+#box1 {
   width: 500px;
+  margin: 2em;
 }
 
 .input {
