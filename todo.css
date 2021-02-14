@@ -2,8 +2,8 @@
   text-align: center;
 }
 
-#box1 {
-  max-width: 50%;
+.box1 {
+  width: 500px;
 }
 
 .input {
