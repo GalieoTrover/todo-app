@@ -31,11 +31,15 @@ btn.addEventListener("click", function () {
     li.appendChild(link);
   }
 
-  let remove = document.querySelectorAll(".fa-remove");
-  remove.forEach(function (e) {
-    e.addEventListener("click", function () {
-      ul.removeChild(li);
-    });
+  // let remove = document.querySelectorAll(".fa-remove");
+  // remove.forEach(function (e) {
+  //   e.addEventListener("click", function () {
+  //     ul.removeChild(li);
+  //   });
+  // });
+
+  link.addEventListener("click", function () {
+    ul.removeChild(li);
   });
   // li.addEventListener("click", function () {
   //   li.style.textDecoration = "line-through";
