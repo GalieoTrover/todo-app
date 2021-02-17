@@ -16,7 +16,7 @@ btn.addEventListener("click", function () {
 
     cont.appendChild(ul);
     ul.appendChild(li);
-    list.appendChild(link);
+    li.appendChild(link);
   }
 
   link.addEventListener("click", function () {
