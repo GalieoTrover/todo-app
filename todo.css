@@ -3,7 +3,7 @@
 }
 
 #box1 {
-  width: 500px;
+  width: 40%;
   margin: 2em;
 }
 
@@ -15,7 +15,7 @@
   margin-top: 0px;
 }
 
-.para-styling {
+.list-styling {
   margin: 10px;
   cursor: pointer;
   font-size: 20px;
